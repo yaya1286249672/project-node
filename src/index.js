@@ -10,7 +10,7 @@ import Vuex from 'vuex'
 //import 'nprogress/nprogress.css'
 import routes from './routes'
 import Mock from './mock'
-Mock.bootstrap();
+// Mock.bootstrap();
 import 'font-awesome/css/font-awesome.min.css'
 import jsoneditor from 'jsoneditor'
 import ace from 'ace-builds'

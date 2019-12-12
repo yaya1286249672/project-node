@@ -18,11 +18,11 @@ module.exports = merge(common, {
         host: '127.0.0.1',
         proxy: {
             "/api": {
-                target: "http://http://127.0.0.1:3030",
+                target: "http://127.0.0.1:3030",
                 changeOrigin: true,
-                pathRewrite: {                
-                    '^/api': ''
-                }
+                // pathRewrite: {                
+                //     '^/api': ''
+                // }
             }
         }
     },
